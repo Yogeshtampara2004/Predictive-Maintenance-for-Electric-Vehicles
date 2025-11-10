@@ -49,3 +49,11 @@ streamlit run app.py
 
 
 ## 📁 Folder Structure
+predictive_maintenance_ev/
+│
+├── app.py # Streamlit app
+├── train_model.py # Trains the Random Forest model
+├── generate_data.py # Generates synthetic sensor data
+├── maintenance_data.csv # Created dataset
+├── maintenance_model.pkl # Trained model
+└── requirements.txt
